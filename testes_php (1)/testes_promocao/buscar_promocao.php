@@ -1,0 +1,1 @@
+<?php require_once "../conexao.php"; require_once "../funcoes.php"; echo "<pre>"; print_r(buscar_promocao($conexao, 1, "Promo", "")); echo "</pre>"; ?>

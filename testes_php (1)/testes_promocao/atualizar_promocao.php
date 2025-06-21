@@ -1,0 +1,1 @@
+<?php require_once "../conexao.php"; require_once "../funcoes.php"; atualizar_promocao($conexao, 1, "Promo Atualizada", 24.90, "Desconto especial", "promo_nova.jpg"); echo "Promoção atualizada!"; ?>
