@@ -1,1 +1,0 @@
-<?php require_once "../conexao.php"; require_once "../funcoes.php"; atualizar_feedback($conexao, 1, "Reclamação", "Demorou muito."); echo "Feedback atualizado!"; ?>

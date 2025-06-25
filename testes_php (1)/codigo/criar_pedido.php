@@ -1,0 +1,5 @@
+<?php 
+require_once "conexao.php"; 
+require_once "funcoes.php"; 
+criar_pedido($conexao, 1, 1, 1, 1); 
+echo "Pedido criado!"; ?>

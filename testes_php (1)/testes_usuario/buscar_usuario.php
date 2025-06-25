@@ -1,1 +1,0 @@
-<?php require_once "../conexao.php"; require_once "../funcoes.php"; echo "<pre>"; print_r(buscar_usuario($conexao, 1, "usuario_teste")); echo "</pre>"; ?>

@@ -1,1 +1,0 @@
-<?php require_once "../conexao.php"; require_once "../funcoes.php"; criar_promocao($conexao, "Promoção Especial", 29.90, "promo.jpg"); echo "Promoção criada!"; ?>

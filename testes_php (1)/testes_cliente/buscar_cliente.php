@@ -1,1 +1,0 @@
-<?php require_once "../conexao.php"; require_once "../funcoes.php"; echo "<pre>"; print_r(buscar_cliente($conexao, 1, "Novo")); echo "</pre>"; ?>
