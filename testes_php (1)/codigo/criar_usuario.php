@@ -1,5 +1,5 @@
-<?php 
-require_once "conexao.php"; 
-require_once "funcoes.php"; 
-criar_usuario($conexao, "usuario_teste", "teste@exemplo.com", "123456"); 
-echo "Usuário criado!"; ?>
+<?php
+require_once "../conexao.php";
+require_once "../funcoes.php";
+
+criar_usuario($conexao, "joao", "joao@email.com", "123456");

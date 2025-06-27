@@ -2,4 +2,4 @@
 require_once "../conexao.php";
 require_once "../funcoes.php";
 
-deletar_pedido($conexao, 1);
+salvarAtualizarItemPedido($conexao, 1, 1, 2);

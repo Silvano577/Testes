@@ -1,5 +1,5 @@
-<?php 
-require_once "conexao.php"; 
-require_once "funcoes.php"; 
-cancelar_delivery($conexao, 1); 
-echo "Delivery cancelado!"; ?>
+<?php
+require_once "../conexao.php";
+require_once "../funcoes.php";
+
+cancelar_delivery($conexao, 1);
