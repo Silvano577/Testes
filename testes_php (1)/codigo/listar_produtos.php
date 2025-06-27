@@ -2,4 +2,4 @@
 require_once "./conexao.php";
 require_once "./funcoes.php";
 
-print_r(buscar_delivery($conexao, 1));
+print_r(listar_produtos($conexao));

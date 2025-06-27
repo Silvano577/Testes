@@ -1,5 +1,4 @@
 <?php
-require_once "../conexao.php";
-require_once "../funcoes.php";
-
+require_once "./conexao.php";
+require_once "./funcoes.php";
 print_r(buscar_feedback($conexao, 1));
